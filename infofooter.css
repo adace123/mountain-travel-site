@@ -1,0 +1,84 @@
+.info {
+    background: #eeeeee;
+}
+
+.subscribe {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    width: 55%;
+}
+
+.subscribe input {
+    flex: 1 0 50%;
+    margin-right: 25px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.subscribe button {
+    color: white;
+    flex: 1 0 25%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+footer {
+    width: 100vw;
+    min-height: auto;
+    padding: 25px 0;
+    background: #607d8b;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+footer ul li {
+    display: inline-block;
+    color: #fff;
+    align-self: center;
+    opacity: .6;
+    font-size: 14px;
+}
+
+footer ul li i {
+    font-size: 24px;
+    color: white;
+    padding-left: 10px;
+    opacity: .6;
+    cursor: pointer;
+}
+
+footer ul li i:hover {
+    opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .subscribe {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .subscribe input, .subscribe button {
+        flex: 0 1 10%;
+        margin-bottom: 10px;
+        margin: 5px auto;
+    }
+    footer ul {
+        flex-direction: column;
+        
+        margin: 0 auto;
+    }
+    footer ul li {
+        padding-bottom: 10px;
+        width: 75%;
+        margin: 0 auto;
+    }
+}
