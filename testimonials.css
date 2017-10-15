@@ -1,0 +1,39 @@
+.testimonial-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.packages h4 {
+    font-size: 34px;
+}
+
+.testimonial-items div h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    width: 40%;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.testimonial-items div {
+   margin-bottom: 20px;
+}
+
+.testimonial-items div * {
+   margin-top: 20px;
+}
+
+
+@media (max-width: 800px) {
+    .testimonials h1 {
+        font-size: 24px;
+    }
+    
+    .testimonial-items div h4 {
+        width: 60%;
+    }
+}
