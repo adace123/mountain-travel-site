@@ -54,7 +54,7 @@ a, button {
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 70%;
+    height: auto;
     position: relative;
     animation: slideup 1s forwards, fadein 1s forwards;
 }
