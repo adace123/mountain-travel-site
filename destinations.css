@@ -1,0 +1,110 @@
+.destinations, .packages, .testimonials, .info {
+    min-height: auto;
+    width: 100vw;
+    padding: 100px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.destinations h1, .packages h1, .info h1 {
+    margin-bottom: 30px;
+}
+
+.destinations p, .packages p, .info p {
+    line-height: 35px;
+}
+
+.border {
+    height: 3px;
+    width: 280px;
+    background: #2196f3;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.gallery {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    
+}
+
+.gallery div {
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.mountain1 {
+    background: url('mountain1.jpg');
+    flex: 1 0 30%;
+    
+}
+
+.mountain2 {
+    background: url('mountain2.jpg');
+    flex: 1 0 60%;
+}
+
+.mountain3 {
+    background: url('mountain3.jpg');
+     flex: 1 0 60%;
+}
+
+.mountain4 {
+    background: url('mountain4.jpg');
+    flex: 1 0 30%;
+}
+
+/*Packages/Trips*/
+
+.packages {
+    background: #eeeeee;
+    min-height: 100vh;
+}
+
+.packages p, .info p {
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    width: 40%; 
+}
+
+.trips div p {
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    width: 60%;
+}
+
+.trips {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 100px;
+}
+
+.trips div * {
+    padding-top: 20px;
+}
+
+.trips div {
+   flex: 1 0 50%;
+   margin-bottom: 80px;
+}
+
+i {
+    color: #64b5f6;
+}
+
+
+@media (max-width: 800px) {
+    .trips {
+        flex-direction: column;
+    }
+    
+    .trips div {
+        margin-bottom: 20px;
+    }
+}
